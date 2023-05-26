@@ -1,0 +1,109 @@
+.lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    display: none;
+    z-index: 999;
+}
+
+.lightbox-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: var(--app-column-padding);
+}
+
+.lightbox.active{
+    display: block;
+}
+
+.light-box{
+    max-width: 400px;
+    max-height: 70vh;
+    width: 100%;
+    border-radius: 15px;
+    background: var(--color-body);
+    border: var(--border);
+    box-shadow: var(--shadow);
+    padding: var(--app-column-padding);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--app-column-padding) * 1);
+}
+
+.light-box .box-heading{
+    font: var(--font-h2);
+    padding-bottom: calc(var(--app-column-padding) * 0.7);
+    border-bottom: var(--border);
+}
+
+.light-box .box-content{
+    overflow-y: scroll;
+    padding: 5px;
+    margin: -5px;
+
+}
+
+.light-box .box-btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(var(--app-column-padding) * 0.8);
+}
+
+.light-box .box-btns button{
+    flex-grow: 1;
+    min-width: calc(50% - var(--app-column-padding) * 0.5);
+}
+
+.lightbox-wrapper .btn-1{background: var(--color-component);}
+
+.lightbox-wrapper .btn-2{background: var(--color-blue);}
+
+.lightbox-wrapper :is(.task-wrapper, .list-wrapper)
+{text-align: left; padding: var(--btn-padding);}
+
+.lightbox-wrapper :is(.task-wrapper.selected, .list-wrapper.selected)
+{outline: solid 2px var(--color-blue);}
+
+.lightbox-wrapper .list-wrapper p.list-content{display: none;}
+
+
+/* TASK LIGHT BOX */
+#add-task .select-list{
+    line-height: 1.267;
+    border: var(--border);
+    padding: var(--btn-padding);
+    border-radius: var(--btn-radius);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white-35);
+}
+
+#add-task .select-list:before{
+    background-image: url("./media/icon-arrow-right.svg");
+    margin: 0;
+    opacity: 0.5;
+}
+
+#move-task .box-content input{display: none;}
+
+.new-task-name,
+.new-task-notes,
+.new-task-date{
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+/* Red */
+#delete-list .btn-2,
+#delete-task .btn-2,
+#reset-app .btn-2
+{background: var(--color-red);}
