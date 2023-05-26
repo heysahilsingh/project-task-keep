@@ -90,16 +90,16 @@
 }
 
 .home-page .option.my-name:before {
-  background-image: url("./media/icon-edit.svg");
+  background-image: url("../media/icon-edit.svg");
 }
 .home-page .option.reset:before {
-  background-image: url("./media/icon-reset.svg");
+  background-image: url("../media/icon-reset.svg");
 }
 .home-page .option.reset {
   color: var(--color-red);
 }
 .home-page .option.support:before {
-  background-image: url("./media/icon-support.svg");
+  background-image: url("../media/icon-support.svg");
 }
 
 /* MIDDLE */
@@ -178,19 +178,19 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./media/icon-dlist-today.svg");
+  background-image: url("../media/icon-dlist-today.svg");
 }
 .dlistImportant .dlist-name:before {
-  background-image: url("./media/icon-dlist-important.svg");
+  background-image: url("../media/icon-dlist-important.svg");
 }
 .dlistUpcoming .dlist-name:before {
-  background-image: url("./media/icon-dlist-upcoming.svg");
+  background-image: url("../media/icon-dlist-upcoming.svg");
 }
 .dlistCompleted .dlist-name:before {
-  background-image: url("./media/icon-dlist-completed.svg");
+  background-image: url("../media/icon-dlist-completed.svg");
 }
 .dlistAll .dlist-name:before {
-  background-image: url("./media/icon-dlist-all.svg");
+  background-image: url("../media/icon-dlist-all.svg");
 }
 
 /* List */
@@ -201,13 +201,13 @@
 }
 
 .home-page .list-section .add-list-button:before {
-  background-image: url("./media/icon-add.svg");
+  background-image: url("../media/icon-add.svg");
   cursor: pointer;
 }
 
 /* BOTTOM */
 .home-page .bottom:before {
-  background-image: url("./media/icon-add.svg");
+  background-image: url("../media/icon-add.svg");
 }
 
 /* ==================== LIST PAGE ==================== */
@@ -228,18 +228,18 @@
 }
 
 .list-page .top .go-back:before {
-  background-image: url("./media/icon-go-back.svg");
+  background-image: url("../media/icon-go-back.svg");
 }
 
 .list-page .option.edit:before {
-  background-image: url("./media/icon-edit.svg");
+  background-image: url("../media/icon-edit.svg");
 }
 
 .list-page .option.delete {
   color: var(--color-red);
 }
 .list-page .option.delete:before {
-  background-image: url("./media/icon-delete.svg");
+  background-image: url("../media/icon-delete.svg");
 }
 
 .list-page .section-heading-wrapper {
@@ -254,19 +254,19 @@
 }
 
 .list-page .section-heading-wrapper .icon:before {
-  background-image: url("./media/icon-list.svg");
+  background-image: url("../media/icon-list.svg");
 }
 .list-page .section-heading-wrapper .Today:before {
-  background-image: url("./media/icon-calender.svg");
+  background-image: url("../media/icon-calender.svg");
 }
 .list-page .section-heading-wrapper .Important:before {
-  background-image: url("./media/icon-dlist-important.svg");
+  background-image: url("../media/icon-dlist-important.svg");
 }
 .list-page .section-heading-wrapper .Upcoming:before {
-  background-image: url("./media/icon-dlist-upcoming.svg");
+  background-image: url("../media/icon-dlist-upcoming.svg");
 }
 .list-page .section-heading-wrapper .Completed:before {
-  background-image: url("./media/icon-dlist-completed.svg");
+  background-image: url("../media/icon-dlist-completed.svg");
 }
 
 /* Section Content */
@@ -278,7 +278,7 @@
 
 /* BOTTOM */
 .list-page .bottom:before {
-  background-image: url("./media/icon-add.svg");
+  background-image: url("../media/icon-add.svg");
 }
 
 @media (min-width: 1201px) {
@@ -296,18 +296,18 @@
 /* ==================== TASK PAGE ==================== */
 /* TOP */
 .task-page .option.edit:before {
-  background-image: url("./media/icon-edit.svg");
+  background-image: url("../media/icon-edit.svg");
 }
 
 .task-page .option.move:before {
-  background-image: url("./media/icon-move.svg");
+  background-image: url("../media/icon-move.svg");
 }
 
 .task-page .option.delete {
   color: var(--color-red);
 }
 .task-page .option.delete:before {
-  background-image: url("./media/icon-delete.svg");
+  background-image: url("../media/icon-delete.svg");
 }
 
 /* MIDDLE */
@@ -382,7 +382,7 @@
 }
 
 .task-page .bottom:before {
-  background-image: url("./media/icon-uncomplete.svg");
+  background-image: url("../media/icon-uncomplete.svg");
 }
 
 .task-page .bottom.task-completed {
