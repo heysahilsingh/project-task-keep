@@ -1,0 +1,31 @@
+{
+    "name": "Task Keep",
+    "description": "Power up Your Task Management",
+    "short_name": "Task Keep",
+    "icons": [
+      {
+        "src": "./media/favicon/favicon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "./media/favicon/favicon-384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "./media/favicon/favicon-256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "./media/favicon/favicon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#18181a",
+    "display": "standalone",
+    "theme_color": "#18181a"
+  }
