@@ -161,7 +161,8 @@ function addList(heading, name, id, btn_1, btn_2, callback) {
 
   // btn-2
   dialogBox.querySelector(".box-btns .btn-2").addEventListener("click", () => {
-    if (input.value.trim() !== "") {
+    if (input.value.trim() !== "" && !dbLists.some(list => list.listName === input.value)) {
+      console.log("Added")
       dbAddList(input.value, id);
       lightBox.classList.remove("active");
       dialogBox.remove();
@@ -444,7 +445,8 @@ function addTask(
       nameOption.value.trim() &&
       notesOption.value.trim() &&
       dateOption.value.trim() &&
-      document.querySelector(".light-box .list-wrapper")
+      document.querySelector(".light-box .list-wrapper") &&
+      !dbTasks.some(task => task.taskName === nameOption.value)
     ) {
       dbAddTask(
         nameOption.value,
@@ -746,3 +748,4 @@ function compTask(taskObject, taskEvent) {
 
   return taskWrapper;
 }
+
